@@ -1,0 +1,111 @@
+body{
+	padding-top: 50px;
+}
+.pokemon{
+	padding: 20px;
+	margin-bottom: 10px;
+	border: solid 1px #D9230F;
+	border-radius: 20px;
+	/*height: 350px;*/
+}
+.pokemon:hover{
+	border: solid 3px #D9230F;
+}
+.pokemon h1{
+	margin: 0;/*
+	color: #fff;
+	font-size: 18px;*/
+}
+.pokemon h1 > small{
+	color: #ccc;
+}
+.pokemon img{
+	/*width: 300px;*/
+	/*position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	margin: auto;
+	max-width: 200px;
+	max-height: 220px;
+}
+.pokemon .pokemon-type{
+	font-size: 22px;
+}
+.pokemon .panel-body{
+	position: relative;
+	height: 250px;
+}
+.navbar-brand {
+	font-weight: 800;
+}
+.navbar-brand img{
+	width: 24px;
+}
+.avatar{
+	max-width: 480px;
+	margin-bottom: 20px;
+}
+.nav-tabs{
+	margin-bottom: 10px;
+}
+.form-group{
+	padding: 10px;
+}
+.type{
+	margin-left: 1px;
+}
+.type-grass{
+	background-color: green;
+}
+.type-fire{
+	background-color: red;
+}
+.type-water{
+	background-color: blue;
+}
+.type-ice{
+	background-color: skyblue;
+}
+.type-dragon{
+	background-color: orange;
+	border: solid 1px yellow;
+}
+.type-electric{
+	background-color: yellow;
+}
+.type-normal{
+	background-color: white;
+	border: solid 1px gray ;
+	color: gray;
+}
+.type-flying{
+	background-color: white;
+	color: blue;
+	border: solid 1px blue ;
+}
+.type-poison{
+	background-color: purple;
+}
+.type-bug{
+	background-color: darkgreen;
+}
+.type-fighting{
+	background-color: brown;
+}
+.type-psychic{
+	background-color: purple;
+}
+.type-rock{
+	background-color: gray;
+}
+.type-ground{
+	background-color: orange;
+}
+.ng-invalid.ng-dirty{
+	border-color: red;
+}
+.ng-valid.ng-dirty{
+	border-color: green;
+}
